@@ -1,8 +1,10 @@
 # Binary classification of reordering
 
+The project uses [UV](https://docs.astral.sh/uv/) as a package manager.
+
 ## Scripts
 
-UV can be used to run scripts for filtering and classifying.
+UV can be used to run scripts for filtering, classifying, and feature importance.
 
 ```bash
 uv run filter
@@ -10,6 +12,10 @@ uv run filter
 
 ```bash
 uv run classify
+```
+
+```bash
+uv run feat_importance
 ```
 
 ## Optimising
