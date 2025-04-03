@@ -1,0 +1,22 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Data files 
+*.csv
+*.db
+
+# Models
+*.pkl
+*.keras
+*.npy
+
+# Generated images
+*.pdf
